@@ -1,0 +1,56 @@
+
+h1{
+  color: ivory;
+  font-size: 500%
+}
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image:url(images/Stadium.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment:fixed;
+  display: flex;
+  justify-content: center;
+  margin-top: 15vh;
+}
+h3{
+  font-size: 60px;
+  color:rgb(146, 236, 146);
+  line-height: 1px;
+}
+#handling{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.reset_button {
+  font-size: 60px;
+  padding: 10px 20px;
+  margin-inline-start: 35%;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: forestgreen;
+  font-weight: bold;
+  height: 100px;
+  width: 300px;
+}
+.reset_button:hover {
+  background-color: burlywood;
+}
+button:hover {
+  transform: scale(1.05);
+}
+.choice-button {
+  height: 15vh;
+  width: 18vw;
+  border: none;
+  margin: 2%;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: rgb(126, 252, 1);
+}
+.choice_image {
+  height: 50%;
+}

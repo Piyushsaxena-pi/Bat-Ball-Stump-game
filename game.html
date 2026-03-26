@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Cricket Game</title>
+    <link rel="stylesheet" href="game.css" />
+  </head>
+  <body>
+    <div id="handling">
+      <h1>Bat Ball Stump Game</h1>
+      <div id="button_handling">
+        <button
+          class="choice-button"
+          onclick="
+            let computerChoice = generateComputerChoice();
+            let resultMsg = getResult('Bat', computerChoice);
+            display('Bat', computerChoice, resultMsg);
+          "
+        >
+          <img src="images/bat.png" alt="Bat image" class="choice_image" />
+        </button>
+        <button
+          class="choice-button"
+          onclick="
+            computerChoice = generateComputerChoice();
+            resultMsg = getResult('Ball', computerChoice);
+            display('Ball', computerChoice, resultMsg);
+          "
+        >
+          <img src="images/ball.png" alt="Ball image" class="choice_image" />
+        </button>
+        <button
+          class="choice-button"
+          onclick="
+            computerChoice = generateComputerChoice();
+            resultMsg = getResult('Stump', computerChoice);
+            display('Stump', computerChoice, resultMsg);
+          "
+        >
+          <img src="images/stump.png" alt="Stump image" class="choice_image" />
+        </button>
+      </div>
+      <h3 id="user_move"></h3>
+      <h3 id="computer_move"></h3>
+      <h3 id="result"></h3>
+      <h3 id="score"></h3>
+      <button
+        class="reset_button"
+        onclick="
+          localStorage.clear();
+          resetScore();
+        "
+      >
+        Reset
+      </button>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
