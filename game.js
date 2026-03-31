@@ -5,7 +5,7 @@ function resetScore(scoreStr) {
   score = scoreStr
     ? JSON.parse(scoreStr)
     : {
-        win: 0,
+        win: 0, 
         lose: 0,
         tie: 0,
       };

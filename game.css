@@ -1,9 +1,9 @@
 
 h1{
   color: ivory;
-  font-size: 500%
+  font-size: 300%
 }
-body {
+body { 
   font-family: sans-serif;
   text-align: center;
   background-image:url(images/Stadium.webp); 
@@ -16,7 +16,7 @@ body {
   margin-top: 15vh;
 }
 h3{
-  font-size: 60px;
+  font-size: 25px;
   color:rgb(146, 236, 146);
   line-height: 1px;
 }
@@ -26,15 +26,15 @@ h3{
   justify-content: space-evenly;
 }
 .reset_button {
-  font-size: 60px;
+  font-size: 30px;
   padding: 10px 20px;
   margin-inline-start: 35%;
   border-radius: 20px;
   cursor: pointer;
   background-color: forestgreen;
   font-weight: bold;
-  height: 100px;
-  width: 300px;
+  height: 65px;
+  width: 180px;
 }
 .reset_button:hover {
   background-color: burlywood;
@@ -44,7 +44,7 @@ button:hover {
 }
 .choice-button {
   height: 15vh;
-  width: 18vw;
+  width: 14vw;
   border: none;
   margin: 2%;
   cursor: pointer;
@@ -52,5 +52,5 @@ button:hover {
   background-color: rgb(126, 252, 1);
 }
 .choice_image {
-  height: 50%;
+  height: 42%;
 }
